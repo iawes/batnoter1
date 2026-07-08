@@ -1,5 +1,14 @@
 {
+  "build": {
+    "env": {
+      "REACT_APP_GITHUB_CLIENT_ID": "$REACT_APP_GITHUB_CLIENT_ID",
+      "REACT_APP_GITHUB_CLIENT_SECRET": "$REACT_APP_GITHUB_CLIENT_SECRET"
+    }
+  },
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ]
 }
